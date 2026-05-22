@@ -1,15 +1,9 @@
 :root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
   --green: #31d0aa;
-  --slate: #434455;
   --light-slate: #8e8f99;
   --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
   --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --grey: rgba(46, 47, 66, 0.7);
-  --white: #fff;
   --dairy: #fcfcfc;
 }
 
@@ -27,11 +21,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: #2e2f42;
   text-decoration: none;
 }
 .logo-accent {
-  color: var(--iris);
+  color: #4d5ae5;
 }
 
 .nav-list,
@@ -46,28 +40,29 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
   text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--ocean);
+  color: #404bbf;
 }
-
-.address-link {
+.header-address {
   font-style: normal;
+}
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
   text-decoration: none;
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--ocean);
+  color: #404bbf;
 }
 .section-hero {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
@@ -75,25 +70,21 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #fff;
 }
 .hero-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: var(--iris);
+  background: #4d5ae5;
   cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: var(--ocean);
-}
-
-.advantages-title {
-  display: none;
+  background: #404bbf;
 }
 
 .item-title {
@@ -101,22 +92,29 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .item-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-name {
@@ -125,18 +123,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--slate);
-}
-
-.portfolio-section-title {
-  display: none;
+  color: #434455;
 }
 
 .portfolio-card-title {
@@ -144,72 +138,25 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
 .page-footer {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  color: #f4f4fd;
 }
 .footer-logo {
-  color: var(--cloud);
+  color: #f4f4fd;
 }
-
-/*
-.page-header
-.header-nav
-.header-logo
-.logo-accent
-
-.nav-list
-.nav-item
-.nav-link
-
-.header-address
-.address-list
-.address-item
-.address-link
-
-.section-hero
-.hero-title
-.hero-button
-
-.section-advantages
-.advantages-title
-.advantages-list
-.advantages-item
-
-.item-title
-.item-description
-
-.section-team
-.team-title
-.team-list
-.team-item
-.team-image
-.team-name
-.team-position
-
-.section-portfolio
-.portfolio-section-title
-.portfolio-list
-.portfolio-item
-.portfolio-image
-.portfolio-card-title
-.portfolio-text
-
-.page-footer
-.footer-logo
-.footer-text */
